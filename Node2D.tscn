@@ -1,0 +1,18 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Sprite.gd" type="Script" id=1]
+[ext_resource path="res://CollisionShape2D.png" type="Texture" id=2]
+[ext_resource path="res://Sprite2D.png" type="Texture" id=3]
+[ext_resource path="res://KinematicBody2D.png" type="Texture" id=4]
+[ext_resource path="res://Sprite2.gd" type="Script" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 251.002, 335.839 )
+script = ExtResource( 1 )
+sprites = [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 3 ) ]
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 765.571, 327.267 )
+script = ExtResource( 5 )
